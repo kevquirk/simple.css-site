@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Updates | Style.css {}
+title: Updates | Simple.css {}
 header: Updates
 description: Updates relating to the Style.css project.
 permalink: /updates
