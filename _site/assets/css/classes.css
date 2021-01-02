@@ -1,0 +1,53 @@
+/****** Format the posts list & meta data ******/
+
+ul.post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.post-list a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration-color: var(--accent2);
+  transition: .4s;
+}
+
+ul.post-list a:hover {
+  text-decoration-color: var(--accent);
+}
+
+ul.post-list li {
+  margin-bottom: 2rem;
+}
+
+span.post-meta {
+  font-size: .9rem;
+  font-weight: normal;
+  color: var(--text-light);
+}
+
+span.post-meta a {
+  font-size: .9rem;
+  font-weight: normal;
+  text-decoration: none;
+  color: var(--text-light) !important;
+  transition: .4s;
+}
+
+span.post-meta a:hover {
+  color: var(--accent) !important;
+}
+
+p.post-meta {
+    margin-top: -1rem;
+}
+
+ul.post-meta {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-description {
+  font-size: 1rem;
+  font-style: italic;
+}

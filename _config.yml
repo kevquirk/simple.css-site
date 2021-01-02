@@ -1,0 +1,15 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO Stuff
+author: Kev Quirk
+description: Simple.css { } is classless CSS template that allows you to create a good looking website very quickly.
+lang: en
+locale: en_GB
+url: "https://simplecss.org"
+baseurl: ""
+
+# RSS feeds
+feed:
+  posts_limit: 20

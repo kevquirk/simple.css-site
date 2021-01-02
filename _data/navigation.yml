@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+
+- name: Elements
+  link: /elements
+
+- name: Updates
+  link: /updates
+
+- name: Github
+  link: https://github.com/kevquirk/simple.css
