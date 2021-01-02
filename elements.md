@@ -1,7 +1,7 @@
 ---
 title: Elements | Style.css {}
 header: Elements
-description: A showcase of the various elements included in Simple.css {}
+description: A showcase of the various elements included in Simple.css
 permalink: /elements
 layout: default
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Updates | Simple.css {}
 header: Updates
-description: Updates relating to the Style.css project.
+description: Updates relating to the Simple.css project.
 permalink: /updates
 ---
 
