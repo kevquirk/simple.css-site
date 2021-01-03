@@ -1,5 +1,5 @@
 ---
-title: Simple.css {} - A classless CSS framework
+title: Simple.css - A classless CSS framework
 header: Simple.css {}
 description: A classless CSS template to make a good looking site quickly.
 permalink: /
