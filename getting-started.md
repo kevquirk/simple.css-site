@@ -6,11 +6,11 @@ permalink: /getting-started
 layout: default
 ---
 
-Ok, so you're starting an new project, or have an existing project, and you want to start using Simple.css to theme your site. It's very simple to do and you should be able to set something up that looks like this site in just a few minutes.
+Ok, so you're starting an new project (or have an existing project), and you want to start using Simple.css to theme your site. It's very simple to do and you should be able to set something up that looks like this site in just a few minutes.
 
 ## Step 1 - create a HTML file
 
-The first thing you're you're going to need is a HTML file to actually format. So fire up you favourite text editor (my favourite is [Atom](https://atom.io)) and paste this basic HTML into it:
+The first thing you're you're going to need is a HTML file so you have something to actually format with Simple.css. Fire up your favourite text editor (my favourite is [Atom](https://atom.io)) and paste this basic HTML into it:
 
 ```
 <!DOCTYPE html>
@@ -37,11 +37,11 @@ The first thing you're you're going to need is a HTML file to actually format. S
 </html>
 ```
 
-Save this file on your computer somewhere as `index.html`. If you then double-click on that file, it will open in your browser and will look something like this:
+Save this file on your computer somewhere as `index.html`. If you then double-click on that file, it will open in your browser and should look something like this:
 
 ![Unformatted HTML example](/assets/images/unformatted-html.png)
 
-Well that just won't do, will it! Let's add Simple.css and fix this, shall we?
+Not very nice, I think you will agree. Let's add Simple.css and fix this, shall we?
 
 ## Step 2 - add Simple.css
 
@@ -54,8 +54,8 @@ Refresh your browser window and ta da! You now have Simple.css formatting on you
 
 ![Simple.css formatted HTML example](/assets/images/simple-css-formatted-html.png)
 
-**That's it!**
+**That's it. You're done.**
 
-You're done. You now have Simple.css formatting your site. All you need to do now is edit the `<header>` and `<footer>` sections to suit your needs. Any content on the main page needs to be added between the `<main>` tags.
+You now have Simple.css formatting your site. All you need to do now is edit the `<header>` and `<footer>` sections to suit your needs. Any content within the main page needs to be added inside the `<main>` tags.
 
 How easy was that! If you want to learn more about adding more styles elements and what's available with Simple.css, take a look at the [demo page](/demo).

@@ -6,11 +6,13 @@ permalink: /demo
 layout: default
 ---
 
-This page is a demonstration of all the elements that can be formatted using Simple.css. Each element includes a code block on how to include it in your site's design.
+This page is a demonstration of the elements that can be formatted using Simple.css. Each section includes a code block on how to include it in your site's design.
+
+This may be a little basic for some people, but I wanted to barrier for entry to be as low as possible for this project.
 
 ## Basic Typography
 
-All the typography of Simple.css uses `rem` for sizing fonts. This means that accessibility is maintained for those who change their browser font size. The `body` element has a size of `1.15rem`  which makes all the standard font sizes slightly larger. This equates to `18.4px` for paragraph text, instead of the standard `16px`.
+All the typography of Simple.css uses `rem` for sizing. This means that accessibility is maintained for those who change their browser font size. The `body` element has a size of `1.15rem`  which makes all the standard font sizes slightly larger. This equates to `18.4px` for paragraph text, instead of the standard `16px`.
 
 The `h2` and `h3` elements also have an increased top margin of `3rem` in order to break blocks of text up better.
 
@@ -34,9 +36,9 @@ The `h2` and `h3` elements also have an increased top margin of `3rem` in order 
 
 ### Links & buttons
 
-Links are formatted very simply on Simple.css. They are blue, using the `accent` CSS variable and are underlines. There is a `:hover` effect that removes the underline. Here is an [example link]().
+Links are formatted very simply on Simple.css (shock horror). They use the `accent` CSS variable and are underlined. There is a `:hover` effect that removes the underline. Here is an [example link]().
 
-Buttons us the same `accent` CSS variable for their colour. When hovering, there is an opacity effect.
+Buttons use the same `accent` CSS variable for their colour. When hovering, there is an opacity effect.
 
 <a href=""><button>This is a linked button</button></a>
 
@@ -48,11 +50,11 @@ Most people use the `.button` CSS class for their buttons, but we're trying to g
 <a href="https://example.com"><button>This is a linked button</button></a>
 ```
 
-**Please note:** Although this will work just fine, it is _not_ valid HTML and will fail HTML validation tests.
+**Please note:** Although the button above will work just fine, it is _not_ valid HTML and will fail HTML validation tests.
 
 ## Other typography elements
 
-There are a number of other typography elements that you can use with Simple.css. These are listed below:
+There are a number of other typography elements that you can use with Simple.css. Some of the common ones are:
 
 * All the standard stuff, like **bold**, _italic_ and <u>underlined</u> text.
 * <mark>Highlighting text</mark> using the `mark` element.
@@ -126,7 +128,8 @@ body {
 ```
 
 ```
-<pre><code>
+<pre>
+<code>
   body {
     color: var(--text);
     background: var(--bg);
@@ -134,11 +137,12 @@ body {
     line-height: 1.5;
     margin: 0;
   }
-</code></pre>
+</code>
+</pre>
 ```
 ## Navigation
 
-The navigation menu is formatted in a "sausage menu". This means that it never wraps and never changes no matter what device a visitor is on. Visitors just need to scroll left and right to view your nav menu:
+The navigation menu is formatted as a "sausage menu". This means that it never wraps and never changes no matter what device a visitor is on. Visitors just need to scroll left and right to view your nav menu:
 
 <nav>
   <a href="">Home</a>
@@ -194,7 +198,7 @@ Accordions are cool to play with. They're especially useful when it comes to thi
 
 ## Tables
 
-Like lists, sometimes you may need to add a table to your webpage. Here's what they look like in Simple.css:
+Like lists, sometimes you may need to add a table to your webpage. In Simple.css tables automatically highlight every other row to make reading easier. Table header text is also bold. Here's what they look like:
 
 | Name  |  Number |
 |---|---|
@@ -239,7 +243,7 @@ Like lists, sometimes you may need to add a table to your webpage. Here's what t
 
 ## Forms
 
-Forms are useful for all kinds of things on webpages. Contact forms, newsletter sign ups etc. Forms also look good on Simple.css:
+Forms are useful for all kinds of things on webpages. Contact forms, newsletter sign ups etc. Forms also look pretty good on Simple.css:
 
 <form>
   <p><strong>This is just a test form. It doesn't do anything.</strong></p>
