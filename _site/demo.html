@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/images/favicon.png" />
     <title>Demo | Simple.css {}</title>
-    <meta name="description" content="A showcase of Simple.css formatting in action and how to use it" />
+    <meta name="description" content="A showcase of Simple.css formatting in action and how to use it." />
     <link type="application/atom+xml" rel="alternate" href="https://simplecss.org/feed.xml" />
     <link rel="stylesheet" href="/assets/css/simple.css">
     <!-- Plausible analytics -->
@@ -16,7 +16,7 @@
 
     <header>
       <h1>Demo</h1>
-      <p>A showcase of Simple.css formatting in action and how to use it</p>
+      <p>A showcase of Simple.css formatting in action and how to use it.</p>
 
       <nav>
   
@@ -34,11 +34,13 @@
 
     <main>
 
-      <p>This page is a demonstration of all the elements that can be formatted using Simple.css. Each element includes a code block on how to include it in your site’s design.</p>
+      <p>This page is a demonstration of the elements that can be formatted using Simple.css. Each section includes a code block on how to include it in your site’s design.</p>
+
+<p>This may be a little basic for some people, but I wanted to barrier for entry to be as low as possible for this project.</p>
 
 <h2 id="basic-typography">Basic Typography</h2>
 
-<p>All the typography of Simple.css uses <code class="language-plaintext highlighter-rouge">rem</code> for sizing fonts. This means that accessibility is maintained for those who change their browser font size. The <code class="language-plaintext highlighter-rouge">body</code> element has a size of <code class="language-plaintext highlighter-rouge">1.15rem</code>  which makes all the standard font sizes slightly larger. This equates to <code class="language-plaintext highlighter-rouge">18.4px</code> for paragraph text, instead of the standard <code class="language-plaintext highlighter-rouge">16px</code>.</p>
+<p>All the typography of Simple.css uses <code class="language-plaintext highlighter-rouge">rem</code> for sizing. This means that accessibility is maintained for those who change their browser font size. The <code class="language-plaintext highlighter-rouge">body</code> element has a size of <code class="language-plaintext highlighter-rouge">1.15rem</code>  which makes all the standard font sizes slightly larger. This equates to <code class="language-plaintext highlighter-rouge">18.4px</code> for paragraph text, instead of the standard <code class="language-plaintext highlighter-rouge">16px</code>.</p>
 
 <p>The <code class="language-plaintext highlighter-rouge">h2</code> and <code class="language-plaintext highlighter-rouge">h3</code> elements also have an increased top margin of <code class="language-plaintext highlighter-rouge">3rem</code> in order to break blocks of text up better.</p>
 
@@ -61,9 +63,9 @@
 
 <h3 id="links--buttons">Links &amp; buttons</h3>
 
-<p>Links are formatted very simply on Simple.css. They are blue, using the <code class="language-plaintext highlighter-rouge">accent</code> CSS variable and are underlines. There is a <code class="language-plaintext highlighter-rouge">:hover</code> effect that removes the underline. Here is an <a href="">example link</a>.</p>
+<p>Links are formatted very simply on Simple.css (shock horror). They use the <code class="language-plaintext highlighter-rouge">accent</code> CSS variable and are underlined. There is a <code class="language-plaintext highlighter-rouge">:hover</code> effect that removes the underline. Here is an <a href="">example link</a>.</p>
 
-<p>Buttons us the same <code class="language-plaintext highlighter-rouge">accent</code> CSS variable for their colour. When hovering, there is an opacity effect.</p>
+<p>Buttons use the same <code class="language-plaintext highlighter-rouge">accent</code> CSS variable for their colour. When hovering, there is an opacity effect.</p>
 
 <p><a href=""><button>This is a linked button</button></a></p>
 
@@ -74,11 +76,11 @@
 &lt;a href="https://example.com"&gt;&lt;button&gt;This is a linked button&lt;/button&gt;&lt;/a&gt;
 </code></pre></div></div>
 
-<p><strong>Please note:</strong> Although this will work just fine, it is <em>not</em> valid HTML and will fail HTML validation tests.</p>
+<p><strong>Please note:</strong> Although the button above will work just fine, it is <em>not</em> valid HTML and will fail HTML validation tests.</p>
 
 <h2 id="other-typography-elements">Other typography elements</h2>
 
-<p>There are a number of other typography elements that you can use with Simple.css. These are listed below:</p>
+<p>There are a number of other typography elements that you can use with Simple.css. Some of the common ones are:</p>
 
 <ul>
   <li>All the standard stuff, like <strong>bold</strong>, <em>italic</em> and <u>underlined</u> text.</li>
@@ -154,7 +156,8 @@
 }
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;pre&gt;&lt;code&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;pre&gt;
+&lt;code&gt;
   body {
     color: var(--text);
     background: var(--bg);
@@ -162,11 +165,12 @@
     line-height: 1.5;
     margin: 0;
   }
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;
+&lt;/pre&gt;
 </code></pre></div></div>
 <h2 id="navigation">Navigation</h2>
 
-<p>The navigation menu is formatted in a “sausage menu”. This means that it never wraps and never changes no matter what device a visitor is on. Visitors just need to scroll left and right to view your nav menu:</p>
+<p>The navigation menu is formatted as a “sausage menu”. This means that it never wraps and never changes no matter what device a visitor is on. Visitors just need to scroll left and right to view your nav menu:</p>
 
 <nav>
   <a href="">Home</a>
@@ -220,7 +224,7 @@
 
 <h2 id="tables">Tables</h2>
 
-<p>Like lists, sometimes you may need to add a table to your webpage. Here’s what they look like in Simple.css:</p>
+<p>Like lists, sometimes you may need to add a table to your webpage. In Simple.css tables automatically highlight every other row to make reading easier. Table header text is also bold. Here’s what they look like:</p>
 
 <table>
   <thead>
@@ -287,7 +291,7 @@
 
 <h2 id="forms">Forms</h2>
 
-<p>Forms are useful for all kinds of things on webpages. Contact forms, newsletter sign ups etc. Forms also look good on Simple.css:</p>
+<p>Forms are useful for all kinds of things on webpages. Contact forms, newsletter sign ups etc. Forms also look pretty good on Simple.css:</p>
 
 <form>
   <p><strong>This is just a test form. It doesn't do anything.</strong></p>
