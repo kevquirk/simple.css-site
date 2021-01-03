@@ -8,31 +8,36 @@ layout: default
 
 Simple.css is a classless CSS template that allows you to make a good looking website **really** quickly.
 
-By _classless_ we mean that there are no CSS classes anywhere in the CSS or the HTML. So your website can look just like this using plain old vanilla HTML.
+By _classless_ I mean that there are no CSS classes anywhere in the CSS or the HTML. So your website can look just like this using plain old vanilla HTML.
 
 Cool, huh?
 
+## Why does Simple.css exist?
+
+When starting a new project, I wanted a CSS framework that would get me up and running quickly, and give me something I could hack on. I got sick of all these giant frameworks that include everything but the kitchen sink, 90% of which I'll never use. For example, the minified CSS for the [Bootstrap framework](https://getbootstrap.com/) is **144KB in total**. By comparison, Simple.css is just **3.9KB**.
+
+I also wanted something that I could add to plain HTML to format it in way that looks good. I can then hack on the framework to make it work for that project by adding CSS classes etc.
+
+Personally, I think that too many developers depend on all singing, all dancing frameworks for their projects. By using something like Simple.css, it provides the basics to get up and running quickly (or just use it as is for a simple, good looking site) yet not be confined by an extremely convoluted framework, like Bootstrap.
+
+Don't get me wrong here - I think frameworks like Bootstrap are amazing and definitely have their place, but for small or personal projects, I don't think they're needed.
+
+So I went ahead and made a simple CSS template for my own needs, but later decided to release it in case it was useful to anyone else. Simple.css is the result. 🙂
+
 ## Simple.css features
 
-Just because we're using plain old HTML without CSS classes, doesn't mean our site needs to be missing contemporary features.
+Just because you're using plain old HTML without CSS classes, doesn't mean the site needs to be missing features.
 
 Simple.css includes the following right out the box:
 
 * A good looking `sans-serif` local font stack.
 * Typographic best practices.
 * Automagic flipping to dark mode.
-* Colours that conform to AAA contrast ratios.
+* Fully responsive.
+* A "sausage menu" that works on all screen sizes.
 * Sensible defaults that format standard HTML elements.
 * Super lightweight, **less than 4 KB in size**.
 
-## Who is Simple.css
+## Who is Simple.css for?
 
 Well the short answer to that question is _anyone_ really. But Simple.css really shines when it comes to building simple websites like a personal blog, an about page, or the basis of a new website.
-
-## How to add Simple.css to your site
-
-Adding support for Simple.css to your site is **really** easy to do. Download the `simple.min.css` file from our <a target="blank" [Github repo](https://github.com/kevquirk/simple.css) and integrate it into your site with the following line of code in your `<head>`:
-
-```
-<link rel="stylesheet" href="/path/to/simple.min.css">
-```

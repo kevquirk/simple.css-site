@@ -13,7 +13,7 @@
   --border: #D8DAE1;
   --accent: #0D47A1;
   --accent2: #90CAF9;
-  --accent3: #1976D2;
+  --accent3: #E91E63;
 
 }
 
@@ -27,7 +27,7 @@
     --border: #666;
     --accent: #FFB300;
     --accent2: #FFECB3;
-    --accent3: #ffc63f;
+    --accent3: #F06292;
   }
 
   img {
@@ -111,7 +111,7 @@ nav a.current:hover {
 
 footer {
   margin-top: 4rem;
-  padding: 2rem 0 1.5rem 0;
+  padding: 2rem 1rem 1.5rem 1rem;
   color: var(--text-light);
   font-size: .9rem;
   text-align: center;
@@ -125,12 +125,12 @@ h1 {
 
 h2 {
 	font-size: 1.85rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 h3 {
 	font-size: 1.55rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 h4 {
@@ -138,23 +138,21 @@ h4 {
 }
 
 h5 {
-	font-size: 1rem;
+	font-size: 1.15rem;
 }
 
 h6 {
-	font-size: .875rem;
+	font-size: .9rem;
 }
 
 /* Format links & buttons */
 a,
 a:visited {
   color: var(--accent);
-  text-decoration-color: var(--accent2);
-  transition: .4s;
 }
 
 a:hover {
-  text-decoration-color: var(--accent);
+  text-decoration: none;
 }
 
 a button,
@@ -190,7 +188,7 @@ input[type="reset"]:focus,
 input[type="reset"]:enabled:hover,
 input[type="button"]:focus,
 input[type="button"]:enabled:hover {
-	background: var(--accent3);
+	opacity: .8;
 }
 
 /* Format the expanding box */
@@ -280,7 +278,7 @@ mark {
 	background: var(--accent2);
 }
 
-img {
+main img {
   max-width: 100%;
   border-radius: 5px;
 }
@@ -293,6 +291,7 @@ figcaption {
   font-size: .9rem;
   color: var(--text-light);
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 blockquote {
@@ -315,31 +314,29 @@ pre,
 kbd,
 samp {
 	font-family: var(--mono-font);
-}
-
-code,
-samp,
-kbd,
-pre {
-	background: var(--accent-bg);
-	border: 1px solid var(--border);
-	border-radius: 5px;
-	padding: 3px 6px;
+  font-size: 1.1rem;
+  color: var(--accent3);
 }
 
 kbd {
-	border-bottom: 3px solid var(--border);
+  border: 1px solid var(--accent3);
+	border-bottom: 3px solid var(--accent3);
+  border-radius: 5px;
+  padding: .1rem;
 }
 
 pre {
 	padding: 1rem 1.4rem;
 	max-width: 100%;
 	overflow: auto;
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
 }
 
 /* Fix embedded code within pre */
 pre code {
-    border: none;
+    color: var(--text);
     margin: 0;
     padding: 0;
 }

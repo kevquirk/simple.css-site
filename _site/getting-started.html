@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>Getting Started | Simple.css {}</title>
+    <meta name="description" content="Instructions on how to get started with Simple.css" />
+    <link type="application/atom+xml" rel="alternate" href="https://simplecss.org/feed.xml" />
+    <link rel="stylesheet" href="/assets/css/simple.css">
+    <!-- Plausible analytics -->
+    <script async defer data-domain="simplecss.org" src="https://stats.simplecss.org/js/index.js"></script>
+
+  </head>
+  <body>
+
+    <header>
+      <h1>Getting Started</h1>
+      <p>Instructions on how to get started with Simple.css</p>
+
+      <nav>
+  
+  <a href="/">Home</a>
+  
+  <a href="/getting-started">Getting Started</a>
+  
+  <a href="/demo">Demo</a>
+  
+  <a href="https://github.com/kevquirk/simple.css">Github</a>
+  
+</nav>
+
+    </header>
+
+    <main>
+
+      <p>Ok, so you’re starting an new project, or have an existing project, and you want to start using Simple.css to theme your site. It’s very simple to do and you should be able to set something up that looks like this site in just a few minutes.</p>
+
+<h2 id="step-1---create-a-html-file">Step 1 - create a HTML file</h2>
+
+<p>The first thing you’re you’re going to need is a HTML file to actually format. So fire up you favourite text editor (my favourite is <a href="https://atom.io">Atom</a>) and paste this basic HTML into it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;My New Website&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Hello, world&lt;/h1&gt;
+    &lt;p&gt;Welcome to my website!&lt;/p&gt;
+  &lt;/header&gt;
+
+  &lt;main&gt;
+    &lt;p&gt;This is my new website and it's using Simple.css. It's really cool. If you want to use it too, you can &lt;a href="https://simplecss.org"&gt;visit their site&lt;/a&gt;.&lt;/p&gt;
+  &lt;/main&gt;
+
+  &lt;footer&gt;
+    &lt;p&gt;Jane Smith's website.&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div></div>
+
+<p>Save this file on your computer somewhere as <code class="language-plaintext highlighter-rouge">index.html</code>. If you then double-click on that file, it will open in your browser and will look something like this:</p>
+
+<p><img src="/assets/images/unformatted-html.png" alt="Unformatted HTML example" /></p>
+
+<p>Well that just won’t do, will it! Let’s add Simple.css and fix this, shall we?</p>
+
+<h2 id="step-2---add-simplecss">Step 2 - add Simple.css</h2>
+
+<p>All you need to do to add all the loveliness of Simple.css to your fantastic new site, is download the latest version of Simple.css <a href="https://github.com/kevquirk/simple.css">from Github</a>, copy the <code class="language-plaintext highlighter-rouge">simple.min.css</code> file to the same directory as the <code class="language-plaintext highlighter-rouge">index.html</code> you just made, then add the following to the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> section of your HTML:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;link rel="stylesheet" href="simple.min.css"&gt;
+</code></pre></div></div>
+<p>Refresh your browser window and ta da! You now have Simple.css formatting on your site. 🎉</p>
+
+<p><img src="/assets/images/simple-css-formatted-html.png" alt="Simple.css formatted HTML example" /></p>
+
+<p><strong>That’s it!</strong></p>
+
+<p>You’re done. You now have Simple.css formatting your site. All you need to do now is edit the <code class="language-plaintext highlighter-rouge">&lt;header&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;footer&gt;</code> sections to suit your needs. Any content on the main page needs to be added between the <code class="language-plaintext highlighter-rouge">&lt;main&gt;</code> tags.</p>
+
+<p>How easy was that! If you want to learn more about adding more styles elements and what’s available with Simple.css, take a look at the <a href="/demo">demo page</a>.</p>
+
+
+    </main>
+
+    <footer>
+      <p>Simple.css was created by <a href="https://kevq.uk">Kev Quirk</a> and is licensed under the GPL 3.</p>
+    </footer>
+
+  </body>
+</html>

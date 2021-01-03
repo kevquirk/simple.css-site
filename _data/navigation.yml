@@ -1,11 +1,11 @@
 - name: Home
   link: /
 
-- name: Elements
-  link: /elements
+- name: Getting Started
+  link: /getting-started
 
-- name: Updates
-  link: /updates
+- name: Demo
+  link: /demo
 
 - name: Github
   link: https://github.com/kevquirk/simple.css
