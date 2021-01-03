@@ -1,7 +1,7 @@
 ---
 title: Getting Started | Simple.css {}
 header: Getting Started
-description: Instructions on how to get started with Simple.css
+description: Instructions on how to get started with Simple.css.
 permalink: /getting-started
 layout: default
 ---

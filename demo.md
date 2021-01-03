@@ -1,7 +1,7 @@
 ---
 title: Demo | Simple.css {}
 header: Demo
-description: A showcase of Simple.css formatting in action and how to use it
+description: A showcase of Simple.css formatting in action and how to use it.
 permalink: /demo
 layout: default
 ---
