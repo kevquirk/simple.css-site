@@ -261,11 +261,11 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   </p>
   <p>
   <label>Message</label><br>
-  <textarea></textarea>
+  <textarea rows="6"></textarea>
   </p>
   <p>
   <label>
-  <input type="checkbox" value="terms">
+  <input type="checkbox" id="checkbox" value="terms">
   I agree to the <a href="#">terms and conditions</a>
   </label>
   </p>

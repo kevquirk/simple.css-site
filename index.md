@@ -14,7 +14,7 @@ Cool, huh?
 
 ## Why does Simple.css exist?
 
-When starting a new project, I wanted a CSS framework that would get me up and running quickly, and give me something I could hack on. I got sick of all these giant frameworks that include everything but the kitchen sink, 90% of which I'll never use. For example, the minified CSS for the [Bootstrap framework](https://getbootstrap.com/) is **144KB in total**. By comparison, Simple.css is just **3.9KB**.
+When starting a new project, I wanted a CSS framework that would get me up and running quickly, and give me something I could hack on. I got sick of all these giant frameworks that include everything but the kitchen sink, 90% of which I'll never use. For example, the minified CSS for the [Bootstrap framework](https://getbootstrap.com/) is **144KB in total**. By comparison, Simple.css is around **4KB**.
 
 Obviously Simple.css and and Bootstrap don't compare in terms of their functionality, but Simple.css allows website developers to spin something up very quickly that looks good and needs very little work.
 
