@@ -40,4 +40,4 @@ Simple.css includes the following right out the box:
 
 ## Who is Simple.css for?
 
-Well the short answer to that question is _anyone_ really. But Simple.css really shines when it comes to building simple websites like a personal blog, an about page, or the basis of a new website..
+Well the short answer to that question is _anyone_ really. But Simple.css really shines when it comes to building simple websites like a personal blog, an about page, or the basis of a new website...
