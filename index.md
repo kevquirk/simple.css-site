@@ -6,7 +6,7 @@ permalink: /
 layout: default
 ---
 
-Simple.css is a classless CSS template that allows you to make a good looking website **really** quickly.
+Simple.css is a classless CSS framework that allows you to make a good looking website **really** quickly.
 
 By _classless_ I mean that there are no CSS classes anywhere in the CSS or the HTML. So your website can look just like this using plain old vanilla HTML.
 
