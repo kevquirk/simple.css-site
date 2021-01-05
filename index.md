@@ -34,7 +34,6 @@ Simple.css includes the following right out the box:
 * Typographic best practices.
 * Automagic flipping to dark mode.
 * Fully responsive.
-* A "sausage menu" that works well on all screen sizes.
 * Sensible defaults that format standard HTML elements.
 * Super lightweight; **less than 4 KB in size**.
 

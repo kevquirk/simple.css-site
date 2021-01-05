@@ -142,7 +142,9 @@ body {
 ```
 ## Navigation
 
-The navigation menu is formatted as a "sausage menu". This means that it never wraps and never changes no matter what device a visitor is on. Visitors just need to scroll left and right to view your nav menu:
+The `nav` menu is deliberately designed to be extremely simple so that you can improve on it as you see fit. Or, just leave it as is to have a good looking, functional navigation menu.
+
+There's no JavaScript of checkbox CSS hacks here. It's just a collection of simple "buttons" that wrap to the given width of the page:
 
 <nav>
   <a href="">Home</a>
