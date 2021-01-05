@@ -1,5 +1,4 @@
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
 
 # SEO Stuff
