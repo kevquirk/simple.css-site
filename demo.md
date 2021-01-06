@@ -34,23 +34,19 @@ The `h2` and `h3` elements also have an increased top margin of `3rem` in order 
 <p>This is some paragraph text.</p>
 ```
 
-### Links & buttons
+### Links & Buttons
 
 Links are formatted very simply on Simple.css (shock horror). They use the `accent` CSS variable and are underlined. There is a `:hover` effect that removes the underline. Here is an [example link]().
 
 Buttons use the same `accent` CSS variable for their colour. When hovering, there is an opacity effect.
 
-<a href=""><button>This is a linked button</button></a>
-
-Most people use the `.button` CSS class for their buttons, but we're trying to get away from CSS classes for Simple.css. So the example code below can be used as a linked button, which will work fine:
+<button>I'm a button</button>
 
 ```
 <a href="https://example.com">This is a hyperlink</a>
 
-<a href="https://example.com"><button>This is a linked button</button></a>
+<button>I'm a button</button>
 ```
-
-**Please note:** Although the button above will work just fine, it is _not_ valid HTML and will fail HTML validation tests.
 
 ## Other typography elements
 
