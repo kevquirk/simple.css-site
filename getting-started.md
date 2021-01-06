@@ -6,9 +6,32 @@ permalink: /getting-started
 layout: default
 ---
 
-Ok, so you're starting an new project (or have an existing project), and you want to start using Simple.css to theme your site. It's very simple to do and you should be able to set something up that looks like this site in just a few minutes.
+Ok, so you're starting an new project (or have an existing project), and you want to use Simple.css to theme your site. It's very simple to do and you should be able to set something up that looks like this site in just a few minutes.
 
-## Step 1 - create a HTML file
+There are a couple of ways in which you can use Simple.css:
+
+1. Add the minified, CDN hosted version of Simple.css, so you always get the latest updates.
+2. Host Simple.css yourself.
+
+## Option 1 - the CDN hosted version
+
+Whenever we push an update to the [Simple.css GitHub repository](https://github.com/kevquirk/simple.css), GitHub automatically minifies the CSS and publishes it to our CDN.
+
+So all you need to do in order to use Simple.css in your project, is add the following line of code to the `<head>` section of your HTML:
+
+```
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+```
+
+Now, whenever I publish an update to Simple.css, you will automatically receive it.
+
+## Option 2 - self-host Simple.css
+
+Of course, you don't have to use the CDN delivery method. If you prefer, you can host Simple.css yourself; but you won't automatically receive updates to the CSS as it is released. You would need to re-download the source and update your project yourself.
+
+Here's an example of how you would download the Simple.css source and host it yourself in a project...
+
+### Step 1 - create a HTML file
 
 The first thing you're you're going to need is a HTML file so you have something to actually format with Simple.css. Fire up your favourite text editor (my favourite is [Atom](https://atom.io)) and paste this basic HTML into it:
 
@@ -43,7 +66,7 @@ Save this file on your computer somewhere as `index.html`. If you then double-cl
 
 Not very nice, I think you will agree. Let's add Simple.css and fix this, shall we?
 
-## Step 2 - add Simple.css
+### Step 2 - add Simple.css
 
 All you need to do to add all the loveliness of Simple.css to your fantastic new site, is download the latest version of Simple.css [from Github](https://github.com/kevquirk/simple.css), copy the `simple.min.css` file to the same directory as the `index.html` you just made, then add the following to the `<head>` section of your HTML:
 
