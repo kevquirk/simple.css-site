@@ -14,19 +14,19 @@ This may be a little basic for some people, but I wanted to barrier for entry to
 
 All the typography of Simple.css uses `rem` for sizing. This means that accessibility is maintained for those who change their browser font size. The `body` element has a size of `1.15rem`  which makes all the standard font sizes slightly larger. This equates to `18.4px` for paragraph text, instead of the standard `16px`.
 
-The `h2` and `h3` elements also have an increased top margin of `3rem` in order to break blocks of text up better.
+The heading elements also have an increased top margin in order to break blocks of text up better.
 
-# Heading 1 `2.25rem`
+# Heading 1 `2.8rem`
 
-## Heading 2 `1.85rem`
+## Heading 2 `2.25rem`
 
-### Heading 3 `1.55rem`
+### Heading 3 `1.8rem`
 
-#### Heading 4 `1.25rem`
+#### Heading 4 `1.44rem`
 
 ##### Heading 5 `1.15rem`
 
-###### Heading 6 `.9rem`
+###### Heading 6 `.92rem`
 
 ```
 <h2>This is a H2 header<h2>
