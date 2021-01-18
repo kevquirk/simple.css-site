@@ -6,7 +6,7 @@ permalink: /getting-started
 layout: default
 ---
 
-Ok, so you're starting an new project (or have an existing project), and you want to use Simple.css to theme your site. It's very simple to do and you should be able to set something up that looks like this site in just a few minutes.
+Ok, so you're starting a new project (or have an existing project), and you want to use Simple.css to theme your site. It's very simple to do and you should be able to set something up that looks like this site in just a few minutes.
 
 There are a couple of ways in which you can use Simple.css:
 
