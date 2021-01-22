@@ -2,7 +2,7 @@
 title: Showcase | Simple.css {}
 header: Simple.css Showcase
 description: A showcase of some of the sites running Simple.css from around the web.
-permalink: /showcase/
+permalink: /showcase
 layout: default
 ---
 
