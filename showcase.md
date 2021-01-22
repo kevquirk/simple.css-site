@@ -8,7 +8,7 @@ layout: default
 
 ![Simple.css showcase example](/assets/images/simple-css-showcase.png)
 
-Here's a look at some examples of Simple.css running on websites from around the web:
+Here's a look at some examples of Simple.css running on websites from around the web: 
 
 * [https://mikestone.me]() (Jekyll)
 * [https://scyllasequence.com]() (Jekyll)
