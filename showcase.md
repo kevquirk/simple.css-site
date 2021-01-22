@@ -10,11 +10,11 @@ layout: default
 
 Here's a look at some examples of Simple.css running on websites from around the web: 
 
-* [https://mikestone.me]() (Jekyll)
-* [https://scyllasequence.com]() (Jekyll)
-* [https://blog.mooreanalysis.com]() (Jekyll)
-* [https://saladhax.site]() (Jekyll)
-* [https://mogwai.be]() (Hugo)
+* [https://mikestone.me](https://mikestone.me) (Jekyll)
+* [https://scyllasequence.com](https://scyllasequence.com) (Jekyll)
+* [https://blog.mooreanalysis.com](https://blog.mooreanalysis.com) (Jekyll)
+* [https://saladhax.site](https://saladhax.site) (Jekyll)
+* [https://mogwai.be](https://mogwai.be) (Hugo)
 
 ## Want to be added?
 
