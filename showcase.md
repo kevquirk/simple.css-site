@@ -8,13 +8,14 @@ layout: default
 
 ![Simple.css showcase example](/assets/images/simple-css-showcase.png)
 
-Here's a look at some examples of Simple.css running on websites from around the web: 
+Here's a look at some examples of Simple.css running on websites from around the web:
 
 * [https://mikestone.me](https://mikestone.me) (Jekyll)
 * [https://scyllasequence.com](https://scyllasequence.com) (Jekyll)
 * [https://blog.mooreanalysis.com](https://blog.mooreanalysis.com) (Jekyll)
 * [https://saladhax.site](https://saladhax.site) (Jekyll)
 * [https://mogwai.be](https://mogwai.be) (Hugo)
+* [https://envs.net/~skirnir/](https://envs.net/~skirnir/)
 
 ## Want to be added?
 
