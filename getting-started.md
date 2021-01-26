@@ -27,7 +27,7 @@ Now, whenever I publish an update to Simple.css, you will automatically receive 
 
 ## Option 2) - UNPKG.com - CDN for npm
 
-Whenever we push a new version to [**npm**](https://www.npmjs.com/) a minified and unminified version of the CSS will be available in [**unpkg**](https://unpkg.com/).
+Whenever we publish a new version to [**npm**](https://www.npmjs.com/) a minified and unminified version of the CSS will be available in [**unpkg**](https://unpkg.com/).
 
 So all you need to do in order to use Simple.css in your project, is add the following line of code to the `<head>` section of your HTML:
 
