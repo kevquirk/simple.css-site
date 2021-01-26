@@ -25,7 +25,36 @@ So all you need to do in order to use Simple.css in your project, is add the fol
 
 Now, whenever I publish an update to Simple.css, you will automatically receive it.
 
-## Option 2 - self-host Simple.css
+## Option 2) - UNPKG.com - CDN for npm
+
+Whenever we push a new version to [**npm**](https://www.npmjs.com/) a minified and unminified version of the CSS will be available in **unpkg**.
+
+So all you need to do in order to use Simple.css in your project, is add the following line of code to the `<head>` section of your HTML:
+
+```
+<link rel="stylesheet" href="https://unpkg.com/simple.css/simple.min.css">
+```
+
+## Option 3) - Install from npm
+
+[npm](https://www.npmjs.com/) is a package registry installing JavaScript and other frontend packages, for NodeJS and browsers.  If you're using any sort of build process (webpack, gulp, browserify,etc), you can manage simple.css as dependency in your project's _package.json_.
+
+To install with npm or Yarn
+```
+$ npm install simple.css
+
+# or
+
+$ yarn add simple.css
+```
+
+For example, using a bundler like **webpack**, you can consume simple.css using an `@import` in a CSS file
+```
+@import url('~simple.css/simple.min.css');
+```
+
+
+## Option 4 - Self-host Simple.css
 
 Of course, you don't have to use the CDN delivery method. If you prefer, you can host Simple.css yourself; but you won't automatically receive updates to the CSS as it is released. You would need to re-download the source and update your project yourself.
 
