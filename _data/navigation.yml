@@ -7,5 +7,8 @@
 - name: Demo
   link: /demo
 
+- name: Showcase
+  link: /showcase
+
 - name: Github
   link: https://github.com/kevquirk/simple.css

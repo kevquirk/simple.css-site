@@ -16,7 +16,7 @@ Cool, huh?
 
 When starting a new project, I wanted a CSS framework that would get me up and running quickly, and give me something I could hack on. I got sick of all these giant frameworks that include everything but the kitchen sink, 90% of which I'll never use. For example, the minified CSS for the [Bootstrap framework](https://getbootstrap.com/) is **144KB in total**. By comparison, Simple.css is around **4KB**.
 
-Obviously Simple.css and and Bootstrap don't compare in terms of their functionality, but Simple.css allows website developers to spin something up very quickly that looks good and needs very little work.
+Obviously Simple.css and Bootstrap don't compare in terms of their functionality, but Simple.css allows website developers to spin something up very quickly that looks good and needs very little work.
 
 Personally, I think that too many developers depend on all singing, all dancing frameworks for their projects. By using something like Simple.css, it provides the basics to get up and running quickly (or just use it as is for a simple, good looking site) yet not have to learn an extremely convoluted framework, like Bootstrap.
 
