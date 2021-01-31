@@ -41,16 +41,16 @@ So all you need to do in order to use Simple.css in your project, is add the fol
 
 To install with npm or Yarn
 ```
-$ npm install @kevquirk/simple.css
+$ npm install simplecss
 
 # or
 
-$ yarn add @kevquirk/simple.css
+$ yarn add simplecss
 ```
 
 For example, using a bundler like **webpack**, you can consume simple.css using an `@import` in a CSS file
 ```
-@import url('~simple.css/simple.min.css');
+@import url('~simplecss/simple.min.css');
 ```
 
 
