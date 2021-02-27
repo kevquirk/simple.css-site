@@ -32,7 +32,7 @@ Whenever we publish a new version to [**npm**](https://www.npmjs.com/) a minifie
 So all you need to do in order to use Simple.css in your project, is add the following line of code to the `<head>` section of your HTML:
 
 ```
-<link rel="stylesheet" href="https://unpkg.com/simple.css/simple.min.css">
+<link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
 ```
 
 ## Option 3) - Install from npm
@@ -41,16 +41,16 @@ So all you need to do in order to use Simple.css in your project, is add the fol
 
 To install with npm or Yarn
 ```
-$ npm install simplecss
+$ npm install simpledotcss
 
 # or
 
-$ yarn add simplecss
+$ yarn add simpledotcss
 ```
 
-For example, using a bundler like **webpack**, you can consume simple.css using an `@import` in a CSS file
+For example, using a bundler like **webpack**, you can consume _simple.css_ using an `@import` statement in a CSS file
 ```
-@import url('~simplecss/simple.min.css');
+@import url('~simpledotcss/simple.min.css');
 ```
 
 
