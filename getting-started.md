@@ -25,7 +25,7 @@ So all you need to do in order to use Simple.css in your project, is add the fol
 
 Now, whenever I publish an update to Simple.css, you will automatically receive it.
 
-## Option 2) - UNPKG.com - CDN for npm
+## Option 2 - UNPKG.com (CDN for npm)
 
 Whenever we publish a new version to [**npm**](https://www.npmjs.com/) a minified and unminified version of the CSS will be available in [**unpkg**](https://unpkg.com/).
 
@@ -35,7 +35,7 @@ So all you need to do in order to use Simple.css in your project, is add the fol
 <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
 ```
 
-## Option 3) - Install from npm
+## Option 3 - Install from npm
 
 [npm](https://www.npmjs.com/) is a package registry installing JavaScript and other frontend packages, for NodeJS and browsers.  If you're using any sort of build process (webpack, gulp, browserify,etc), you can manage simple.css as dependency in your project's _package.json_.
 
