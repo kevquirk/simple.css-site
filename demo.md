@@ -246,6 +246,15 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
 <form>
   <p><strong>This is just a test form. It doesn't do anything.</strong></p>
   <p>
+  <select>
+		<option selected="selected" value="1">Title</option>
+		<option value="2">Mr</option>
+    <option value="3">Miss</option>
+    <option value="4">Mrs</option>
+    <option value="5">Other</option>
+	</select>
+  </p>
+  <p>
   <label>First name</label><br>
   <input type="text" name="first_name">
   </p>
@@ -256,6 +265,12 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   <p>
   <label>Email</label><br>
   <input type="email" name="email" required="">
+  </p>
+  <p>
+  <label>Enquiry type:</label><br>
+  <input checked="checked" name="type" type="radio" value="sales" /> Sales <br />
+	<input name="type" type="radio" value="support" /> Support <br />
+  <input name="type" type="radio" value="billing" /> Billing
   </p>
   <p>
   <label>Message</label><br>
@@ -271,34 +286,56 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   <button>Send</button>
   <button type="reset">Reset</button>
   <button disabled="disabled">Disabled</button>
+</form>
 
+```HTML
+<form>
+  <p><strong>This is just a test form. It doesn't do anything.</strong></p>
 
-<pre><code> &lt;form&gt;  
-  &lt;p&gt;&lt;strong&gt;This is just a test form. It doesn't do anything.&lt;/strong&gt;&lt;/p&gt;  
-  &lt;p&gt;  
-    &lt;label&gt;First name&lt;/label&gt;&lt;br&gt;  
-    &lt;input type="text" name="first_name"&gt;  
-  &lt;/p&gt;  
-  &lt;p&gt;  
-    &lt;label&gt;Surname&lt;/label&gt;&lt;br&gt;  
-    &lt;input type="text" name="surname"&gt;  
-  &lt;/p&gt;  
-  &lt;p&gt;  
-    &lt;label&gt;Email&lt;/label&gt;&lt;br&gt;  
-    &lt;input type="email" name="email" required=""&gt;  
-  &lt;/p&gt;  
-  &lt;p&gt;  
-    &lt;label&gt;Message&lt;/label&gt;&lt;br&gt;  
-    &lt;textarea&gt;&lt;/textarea&gt;  
-  &lt;/p&gt;  
-  &lt;p&gt;  
-    &lt;label&gt;  
-    &lt;input type="checkbox" value="terms"&gt;  
-    I agree to the &lt;a href="#"&gt;terms and conditions&lt;/a&gt;  
-    &lt;/label&gt;  
-  &lt;/p&gt;  
-  &lt;button&gt;Send&lt;/button&gt;  
-  &lt;button type="reset"&gt;Reset&lt;/button&gt;  
-  &lt;button disabled="disabled"&gt;Disabled&lt;/button&gt;  
-  &lt;/form&gt;</code>
-  </pre>
+  <p><select>
+    <option selected="selected" value="1">Title</option>
+    <option value="2">Mr</option>
+    <option value="3">Miss</option>
+    <option value="4">Mrs</option>
+    <option value="5">Other</option>
+  </select></p>
+
+  <p>
+  <label>First name</label><br>
+  <input type="text" name="first_name">
+  </p>
+
+  <p>
+  <label>Surname</label><br>
+  <input type="text" name="surname">
+  </p>
+
+  <p>
+  <label>Email</label><br>
+  <input type="email" name="email" required="">
+  </p>
+
+  <p>
+  <label>Enquiry type:</label><br>
+  <input checked="checked" name="type" type="radio" value="sales" /> Sales <br />
+  <input name="type" type="radio" value="support" /> Support <br />
+  <input name="type" type="radio" value="billing" /> Billing
+  </p>
+
+  <p>
+  <label>Message</label><br>
+  <textarea rows="6"></textarea>
+  </p>
+
+  <p>
+  <label>
+  <input type="checkbox" id="checkbox" value="terms">
+  I agree to the <a href="#">terms and conditions</a>
+  </label>
+  </p>
+
+  <button>Send</button>
+  <button type="reset">Reset</button>
+  <button disabled="disabled">Disabled</button>
+</form>
+```
