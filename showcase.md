@@ -18,7 +18,6 @@ Here's a look at some examples of Simple.css running on websites from around the
 * [https://envs.net/~skirnir/](https://envs.net/~skirnir/)
 * [https://joelchrono12.netlify.app/](https://joelchrono12.netlify.app/)
 * [https://www.ecliptik.com/](https://www.ecliptik.com/)
-* [http://www.elisanet.fi/kt/en/](http://www.elisanet.fi/kt/en/)
 
 ## Want to be added?
 
