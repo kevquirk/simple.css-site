@@ -6,18 +6,14 @@ permalink: /showcase
 layout: default
 ---
 
-<img class="showcase" alt="Simple.css showcase example" src="/assets/images/simple-css-showcase.png" />
+![Simple.css showcase example](/assets/images/simple-css-showcase.png)
 
 Here's a look at some examples of Simple.css running on websites from around the web:
 
 * [https://mikestone.me](https://mikestone.me)
-* [https://blog.mooreanalysis.com](https://blog.mooreanalysis.com)
-* [https://saladhax.site](https://saladhax.site)
-* [https://mogwai.be](https://mogwai.be)
 * [https://envs.net/~skirnir/](https://envs.net/~skirnir/)
 * [https://joelchrono12.netlify.app/](https://joelchrono12.netlify.app/)
 * [https://www.ecliptik.com/](https://www.ecliptik.com/)
-* [https://mzumquadrat.de](https://mzumquadrat.de)
 * [https://paulwilde.uk](https://paulwilde.uk)
 
 ## Want to be added?
