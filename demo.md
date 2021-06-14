@@ -180,7 +180,7 @@ In Simple.css, images within the `main` element are always full width and have r
 
 ```
 # Standard image
-<img alt="A dog on an iPad" src="/assets/images/god-ipad.jpg" />
+<img alt="A dog on an iPad" src="/assets/images/dog-ipad.jpg" />
 
 # Image with a caption
 <figure>
