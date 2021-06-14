@@ -140,7 +140,7 @@ body {
 
 The `nav` menu is deliberately designed to be extremely simple so that you can improve on it as you see fit. Or, just leave it as is to have a good looking, functional navigation menu.
 
-There's no JavaScript of checkbox CSS hacks here. It's just a collection of simple "buttons" that wrap to the given width of the page:
+There's no JavaScript or checkbox CSS hacks here. It's just a collection of simple "buttons" that wrap to the given width of the page:
 
 <nav>
   <a href="">Home</a>
