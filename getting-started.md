@@ -58,7 +58,7 @@ For example, using a bundler like **webpack**, you can consume _simple.css_ usin
 
 Of course, you don't have to use the CDN delivery method. If you prefer, you can host Simple.css yourself; but you won't automatically receive updates to the CSS as it is released. You would need to re-download the source and update your project yourself.
 
-Here's an example of how you would download the Simple.css source and host it yourself in a project...
+[Download the source files from here](https://github.com/kevquirk/simple.css).
 
 ## Adding Simple.css to your project
 
