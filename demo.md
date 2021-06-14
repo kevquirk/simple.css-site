@@ -158,12 +158,12 @@ To add a `nav` menu, just add the following to the `<header>` section of your si
 
 ```
 <nav>
-  <a href="">Home</a>
-  <a href="">About</a>
-  <a href="">Blog</a>
-  <a href="">Notes</a>
-  <a href="">Guestbook</a>
-  <a href="">Contact</a>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/blog">Blog</a>
+  <a href="/notes">Notes</a>
+  <a href="/guestbook">Guestbook</a>
+  <a href="/contact">Contact</a>
 </nav>
 ```
 
