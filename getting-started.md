@@ -27,7 +27,7 @@ Now, whenever I publish an update to Simple.css, you will automatically receive 
 
 ## Option 2 - UNPKG.com (CDN for npm)
 
-Whenever we publish a new version to [**npm**](https://www.npmjs.com/) a minified and unminified version of the CSS will be available in [**unpkg**](https://unpkg.com/).
+Whenever we publish a new version to [**npm**](https://www.npmjs.com/) a minified and un-minified version of the CSS will be available in [**unpkg**](https://unpkg.com/).
 
 So all you need to do in order to use Simple.css in your project, is add the following line of code to the `<head>` section of your HTML:
 
@@ -60,9 +60,13 @@ Of course, you don't have to use the CDN delivery method. If you prefer, you can
 
 Here's an example of how you would download the Simple.css source and host it yourself in a project...
 
+## Adding Simple.css to your project
+
+Here's a simple quick start guide on how to add the CDN hosted version of Simple.css to your project.
+
 ### Step 1 - create a HTML file
 
-The first thing you're you're going to need is a HTML file so you have something to actually format with Simple.css. Fire up your favourite text editor (my favourite is [Atom](https://atom.io)) and paste this basic HTML into it:
+The first thing you're going to need is a HTML file so you have something to actually format with Simple.css. Fire up your favourite text editor (my favourite is [Atom](https://atom.io)) and paste this basic HTML into it:
 
 ```
 <!DOCTYPE html>
@@ -97,10 +101,10 @@ Not very nice, I think you will agree. Let's add Simple.css and fix this, shall 
 
 ### Step 2 - add Simple.css
 
-All you need to do to add all the loveliness of Simple.css to your fantastic new site, is download the latest version of Simple.css [from Github](https://github.com/kevquirk/simple.css), copy the `simple.min.css` file to the same directory as the `index.html` you just made, then add the following to the `<head>` section of your HTML:
+All you need to do to add all the loveliness of Simple.css to your fantastic new site, is add the following line of code to the `<head>` section of your HTML:
 
 ```
-<link rel="stylesheet" href="simple.min.css">
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 ```
 Refresh your browser window and ta da! You now have Simple.css formatting on your site. 🎉
 
@@ -109,5 +113,7 @@ Refresh your browser window and ta da! You now have Simple.css formatting on you
 **That's it. You're done.**
 
 You now have Simple.css formatting your site. All you need to do now is edit the `<header>` and `<footer>` sections to suit your needs. Any content within the main page needs to be added inside the `<main>` tags.
+
+The best part is that because you're using our CDN, whenever we publish updates to the project, you get them automagically!
 
 How easy was that! If you want to learn more about adding more styles elements and what's available with Simple.css, take a look at the [demo page](/demo).
