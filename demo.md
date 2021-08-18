@@ -42,10 +42,14 @@ Buttons use the same `accent` CSS variable for their colour. When hovering, ther
 
 <button>I'm a button</button>
 
+<button onclick="window.location.href='https://example.com';">I'm a button with a link</button>
+
 ```
 <a href="https://example.com">This is a hyperlink</a>
 
 <button>I'm a button</button>
+
+<button onclick="window.location.href='https://example.com';">I'm a button with a link</button>
 ```
 
 ## Other typography elements
