@@ -178,8 +178,8 @@ In Simple.css, images within the `main` element are always full width and have r
 ![A dog at an iPad](/assets/images/dog-ipad.jpg)
 
 <figure>
-  <img alt="This is a goose (I think)" src="/assets/images/goose.jpg" />
-  <figcaption>This is a goose (I think)</figcaption>
+  <img alt="This is a black swan" src="/assets/images/goose.jpg" />
+  <figcaption>This is a black swan</figcaption>
 </figure>
 
 ```

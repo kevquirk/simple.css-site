@@ -8,14 +8,16 @@ layout: default
 
 Ok, so you're starting a new project (or have an existing project), and you want to use Simple.css to theme your site. It's very simple to do and you should be able to set something up that looks like this site in just a few minutes.
 
-There are a couple of ways in which you can use Simple.css:
+There are a number of ways in which you can use Simple.css:
 
 1. Add the minified, CDN hosted version of Simple.css, so you always get the latest updates.
-2. Host Simple.css yourself.
+    1.1 Use NPM's CDN, UNPKG.
+2. Install from NPM.
+3. Host Simple.css yourself.
 
 ## Option 1 - the CDN hosted version
 
-Whenever we push an update to the [Simple.css GitHub repository](https://github.com/kevquirk/simple.css), GitHub automatically minifies the CSS and publishes it to our CDN.
+Whenever I push an update to the [Simple.css GitHub repository](https://github.com/kevquirk/simple.css), GitHub automatically minifies the CSS and publishes it to the CDN.
 
 So all you need to do in order to use Simple.css in your project, is add the following line of code to the `<head>` section of your HTML:
 
@@ -25,21 +27,26 @@ So all you need to do in order to use Simple.css in your project, is add the fol
 
 Now, whenever I publish an update to Simple.css, you will automatically receive it.
 
-## Option 2 - UNPKG.com (CDN for npm)
+### Option 1.1 - UNPKG.com (CDN for npm)
 
-Whenever we publish a new version to [**npm**](https://www.npmjs.com/) a minified and un-minified version of the CSS will be available in [**unpkg**](https://unpkg.com/).
+Simple.css is also published to [**npm**](https://www.npmjs.com/). Both minified and un-minified versions of the CSS are available NPM's CDN, [**unpkg**](https://unpkg.com/).
 
 So all you need to do in order to use Simple.css in your project, is add the following line of code to the `<head>` section of your HTML:
 
 ```
+<!-- Minified version -->
 <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
+
+<!-- Un-minified version -->
+<link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.css">
 ```
 
-## Option 3 - Install from npm
+## Option 2 - Install from NPM
 
-[npm](https://www.npmjs.com/) is a package registry installing JavaScript and other frontend packages, for NodeJS and browsers.  If you're using any sort of build process (webpack, gulp, browserify,etc), you can manage simple.css as dependency in your project's _package.json_.
+[NPM](https://www.npmjs.com/) is a package registry installing JavaScript and other frontend packages, for NodeJS and browsers.  If you're using any sort of build process (webpack, gulp, browserify,etc), you can manage simple.css as dependency in your project's `package.json`.
 
-To install with npm or Yarn
+To install with NPM or Yarn
+
 ```
 $ npm install simpledotcss
 
@@ -49,12 +56,13 @@ $ yarn add simpledotcss
 ```
 
 For example, using a bundler like **webpack**, you can consume _simple.css_ using an `@import` statement in a CSS file
+
 ```
 @import url('~simpledotcss/simple.min.css');
 ```
 
 
-## Option 4 - Self-host Simple.css
+## Option 3 - self-host Simple.css
 
 Of course, you don't have to use the CDN delivery method. If you prefer, you can host Simple.css yourself; but you won't automatically receive updates to the CSS as it is released. You would need to re-download the source and update your project yourself.
 
