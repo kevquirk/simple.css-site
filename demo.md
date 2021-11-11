@@ -283,9 +283,9 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   </p>
   <p>
   <label>Enquiry type:</label><br>
-  <input checked="checked" name="type" type="radio" value="sales" /> Sales <br />
-	<input name="type" type="radio" value="support" /> Support <br />
-  <input name="type" type="radio" value="billing" /> Billing
+  <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> <br />
+  <label><input name="type" type="radio" value="support" /> Support</label> <br />
+  <label><input name="type" type="radio" value="billing" /> Billing</label>
   </p>
   <p>
   <label>Message</label><br>
@@ -332,9 +332,9 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
 
   <p>
   <label>Enquiry type:</label><br>
-  <input checked="checked" name="type" type="radio" value="sales" /> Sales <br />
-  <input name="type" type="radio" value="support" /> Support <br />
-  <input name="type" type="radio" value="billing" /> Billing
+  <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> <br />
+  <label><input name="type" type="radio" value="support" /> Support</label> <br />
+  <label><input name="type" type="radio" value="billing" /> Billing</label>
   </p>
 
   <p>
