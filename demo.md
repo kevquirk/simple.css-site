@@ -188,14 +188,14 @@ In Simple.css, images within the `main` element are always full width and have r
 
 # Image with a caption
 <figure>
-  <img alt="This is a goose (I think)" src="/assets/images/goose.jpg" />
-  <figcaption>This is a goose (I think)</figcaption>
+  <img alt="This is a black swan" src="/assets/images/goose.jpg" />
+  <figcaption>This is a black swan</figcaption>
 </figure>
 ```
 
 ## Accordions
 
-Accordions are cool to play with. They're especially useful when it comes to things like FAQ pages. Many people invoke JavaScript, or `div` for life when they use accordions. I don't really understand why that is what it's available in plain old HTML:
+Accordions are cool to play with. They're especially useful when it comes to things like FAQ pages. Many people invoke JavaScript, or `div` for life when they use accordions. I don't really understand why that is when it's available in plain old HTML:
 
 <details>
   <summary>Spoiler alert!</summary>
