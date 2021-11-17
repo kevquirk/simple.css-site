@@ -1,12 +1,12 @@
 ---
 title: Simple.css - A classless CSS framework
 header: Simple.css {}
-description: A classless CSS framework to make a good looking site quickly.
+description: A classless CSS framework that makes semantic HTML look good.
 permalink: /
 layout: default
 ---
 
-Simple.css is a classless CSS framework that allows you to make a good looking website **really** quickly.
+Simple.css is a classless CSS framework that makes semantic HTML look good, **really** quickly.
 
 By _classless_ I mean that there are no CSS classes anywhere in the CSS or the HTML. So your website can look just like this using plain old vanilla HTML.
 
