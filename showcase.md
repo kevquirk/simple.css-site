@@ -10,10 +10,11 @@ layout: default
 
 Here's a look at some examples of Simple.css running on websites from around the web:
 
-* [https://mikestone.me](https://mikestone.me)
-* [https://envs.net/~skirnir/](https://envs.net/~skirnir/)
-* [https://joelchrono12.netlify.app/](https://joelchrono12.netlify.app/)
-* [https://www.ecliptik.com/](https://www.ecliptik.com/)
+* [The Joy of Cryptography (eBook)](https://joyofcryptography.com)
+* [Mike Stone](https://mikestone.me)
+* [Skirnir's realm](https://envs.net/~skirnir)
+* [Joel Chrono](https://joelchrono12.netlify.app)
+* [Micheal Waltz](https://www.ecliptik.com)
 
 ## Want to be added?
 
