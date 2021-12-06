@@ -292,6 +292,15 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   <textarea rows="6"></textarea>
   </p>
   <p>
+  <label for="cars">Choose a car:</label><br>
+<select name="cars" id="cars" multiple>
+ <option value="volvo">Volvo</option>
+ <option value="saab">Saab</option>
+ <option value="opel">Opel</option>
+ <option value="audi">Audi</option>
+</select>
+  </p>
+  <p>
   <label>
   <input type="checkbox" id="checkbox" value="terms">
   I agree to the <a href="#">terms and conditions</a>
