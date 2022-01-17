@@ -8,7 +8,7 @@ layout: default
 
 This page is a demonstration of the elements that can be formatted using Simple.css. Each section includes a code block on how to include it in your site's design.
 
-This may be a little basic for some people, but I wanted to barrier for entry to be as low as possible for this project.
+This may be a little basic for some people, but I wanted the barrier for entry to be as low as possible for this project.
 
 ## Basic Typography
 
