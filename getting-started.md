@@ -9,18 +9,11 @@ Ok, so you're starting a new project (or have an existing project), and you want
 
 There are a number of ways in which you can use Simple.css:
 
-<<<<<<< HEAD
 1. [Add the minified, CDN hosted version of Simple.css, so you always get the latest updates](#my-cdn)
 2. [Use NPM's CDN, UNPKG](#npm-cdn)
 3. [Install from NPM](#npm-install)
 4. [Host Simple.css yourself](#self-host)
 5. [You can also customise Simple.css](#make-changes)
-=======
-1. Add the minified, CDN hosted version of Simple.css, so you always get the latest updates.  
-    1.1 Use NPM's CDN, UNPKG.
-2. Install from NPM.
-3. Host Simple.css yourself.
->>>>>>> 6ca13213a00de0691603d97ae4b0b9544596562f
 
 ## Option 1 - the CDN hosted version {#my-cdn}
 
