@@ -10,7 +10,7 @@ Ok, so you're starting a new project (or have an existing project), and you want
 
 There are a number of ways in which you can use Simple.css:
 
-1. Add the minified, CDN hosted version of Simple.css, so you always get the latest updates.
+1. Add the minified, CDN hosted version of Simple.css, so you always get the latest updates.  
     1.1 Use NPM's CDN, UNPKG.
 2. Install from NPM.
 3. Host Simple.css yourself.
