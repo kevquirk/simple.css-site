@@ -1,6 +1,5 @@
 ---
-title: Demo | Simple.css {}
-header: Demo
+title: Simple.css Demo
 description: A showcase of Simple.css formatting in action and how to use it.
 permalink: /demo
 layout: default
@@ -16,17 +15,17 @@ All the typography of Simple.css uses `rem` for sizing. This means that accessib
 
 The heading elements also have an increased top margin in order to break blocks of text up better.
 
-# Heading 1 `2.8rem`
+# Heading 1 `3rem`
 
-## Heading 2 `2.25rem`
+## Heading 2 `2.6rem`
 
-### Heading 3 `1.8rem`
+### Heading 3 `2rem`
 
 #### Heading 4 `1.44rem`
 
 ##### Heading 5 `1.15rem`
 
-###### Heading 6 `.92rem`
+###### Heading 6 `0.96rem`
 
 ```
 <h2>This is a H2 header<h2>
@@ -151,12 +150,10 @@ There's no JavaScript or checkbox CSS hacks here. It's just a collection of simp
   <a href="">About</a>
   <a href="">Blog</a>
   <a href="">Notes</a>
-  <a href="">Guestbook</a>
   <a href="">Contact</a>
-  <a href="">Link 1</a>
-  <a href="">Link 2</a>
-  <a href="">Link 3</a>
 </nav>
+
+The `nav` menu will also adapt to smaller screens automatically so that it doesn't take up too much space.
 
 To add a `nav` menu, just add the following to the `<header>` section of your site:
 

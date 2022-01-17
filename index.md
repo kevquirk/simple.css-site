@@ -1,6 +1,5 @@
 ---
 title: Simple.css - A classless CSS framework
-header: Simple.css {}
 description: A classless CSS framework that makes semantic HTML look good.
 permalink: /
 layout: default

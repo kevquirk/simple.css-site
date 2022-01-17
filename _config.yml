@@ -8,7 +8,5 @@ lang: en
 locale: en_GB
 url: "https://simplecss.org"
 baseurl: ""
-
-# RSS feeds
-feed:
-  posts_limit: 20
+title: Simple.css
+permalink: :title

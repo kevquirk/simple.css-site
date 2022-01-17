@@ -7,6 +7,9 @@
 - name: Demo
   link: /demo
 
+- name: News
+  link: /news
+
 - name: Showcase
   link: /showcase
 
