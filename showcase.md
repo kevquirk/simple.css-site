@@ -17,7 +17,7 @@ Here's a look at some examples of Simple.css running on websites from around the
 * [Joel Chrono](https://joelchrono12.netlify.app)
 * [Micheal Waltz](https://www.ecliptik.com)
 * [Sheogorath's Blog](https://shivering-isles.com/)
-* [Tony Cavella](https://cavella.com)
+* [Tony Cavella](https://cavella.com) 
 
 ## Want to be added?
 
