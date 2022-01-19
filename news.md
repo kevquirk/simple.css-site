@@ -2,6 +2,7 @@
 layout: default
 title: Latest News
 description: Want to know what's going on with Simple.css? This is a good place to start.
+image: /assets/images/simple-css-feature.webp
 ---
 
 {% for post in site.posts %}

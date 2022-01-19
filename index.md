@@ -3,6 +3,7 @@ title: Simple.css - A classless CSS framework
 description: A classless CSS framework that makes semantic HTML look good.
 permalink: /
 layout: default
+image: /assets/images/simple-css-feature.webp
 ---
 
 Simple.css is a classless CSS framework that makes semantic HTML look good, **really** quickly.

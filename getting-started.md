@@ -3,6 +3,7 @@ title: Getting Started
 description: Instructions on how to get started with Simple.css.
 permalink: /getting-started
 layout: default
+image: /assets/images/simple-css-feature.webp
 ---
 
 Ok, so you're starting a new project (or have an existing project), and you want to use Simple.css to theme your site. It's very simple to do and you should be able to set something up that looks like this site in just a few minutes.

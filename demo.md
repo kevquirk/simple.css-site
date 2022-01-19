@@ -3,6 +3,7 @@ title: Simple.css Demo
 description: A showcase of Simple.css formatting in action and how to use it.
 permalink: /demo
 layout: default
+image: /assets/images/simple-css-feature.webp
 ---
 
 This page is a demonstration of the elements that can be formatted using Simple.css. Each section includes a code block on how to include it in your site's design.

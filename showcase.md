@@ -4,6 +4,7 @@ header: Simple.css Showcase
 description: A showcase of some of the sites running Simple.css from around the web.
 permalink: /showcase
 layout: default
+image: /assets/images/simple-css-feature.webp
 ---
 
 ![Simple.css showcase example](/assets/images/simple-css-showcase.png)

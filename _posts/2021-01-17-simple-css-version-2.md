@@ -2,6 +2,7 @@
 layout: post
 title: Introducing Simple.css Version 2 🎉
 description: I've been hacking on Simple.css recently, and all the changes have accumulated into a new major version. Say hello to Simple.css version 2.
+image: /assets/images/simple-css-feature.webp
 ---
 I started off wanting to make a few small tweaks to Simple.css, but that list has grown recently since we [hit the front page of Hacker News](https://news.ycombinator.com/item?id=29929438). I decided to take the snag list I had and completely re-do Simple.css in way that I should have in the first place.
 

@@ -2,6 +2,7 @@
 layout: post
 title: Hello World!
 description: This is the first post in our brand new blog! Here's some info on why this thing exists.
+image: /assets/images/simple-css-feature.webp
 ---
 {: .medium}
 Well here we are, a new blog on the Simple.css site, check us out!
