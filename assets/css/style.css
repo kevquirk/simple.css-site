@@ -48,3 +48,14 @@ nav a.current {
   filter: brightness(1.4);
   cursor: pointer;
 }
+
+.icon {
+  vertical-align: sub;
+  padding-right: .25rem;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
