@@ -5,6 +5,9 @@ permalink: /
 layout: default
 image: /assets/images/simple-css-feature.webp
 ---
+{: .notice}
+**Are you using Simple.css?**<br>
+If you are, it would be great if you considered buying me a coffee to say thanks. Things like this really help open source software thrive. You can [Buy Me A Coffee](https://ko-fi.com/kevquirk) or even [sponsor me on GitHub](https://github.com/sponsors/kevquirk)
 
 Simple.css is a classless CSS framework that makes semantic HTML look good, **really** quickly.
 
