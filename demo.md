@@ -36,20 +36,22 @@ The heading elements also have an increased top margin in order to break blocks 
 
 ### Links & Buttons
 
-Links are formatted very simply on Simple.css (shock horror). They use the `accent` CSS variable and are underlined. There is a `:hover` effect that removes the underline. Here is an [example link]().
+Links are formatted very simply on Simple.css (shock horror). They use the `accent` CSS variable and are underlined. There is a `:hover` effect that removes the underline.
 
 Buttons use the same `accent` CSS variable for their colour. When hovering, there is an opacity effect.
 
+[I'm a hyperlink](https://example.com)
+
 <button>I'm a button</button>
 
-<button onclick="window.location.href='https://example.com';">I'm a button with a link</button>
+<a href="https://example.com"><button>I'm a button with a link</button></a>
 
 ```
-<a href="https://example.com">This is a hyperlink</a>
+<a href="https://example.com">I'm a hyperlink</a>
 
 <button>I'm a button</button>
 
-<button onclick="window.location.href='https://example.com';">I'm a button with a link</button>
+<a href="https://example.com"><button>I'm a button with a link</button></a>
 ```
 
 ## Other typography elements
