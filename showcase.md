@@ -7,7 +7,7 @@ layout: default
 image: /assets/images/simple-css-feature.webp
 ---
 
-![Simple.css showcase example](/assets/images/simple-css-showcase.png)
+![Simple.css showcase example](/assets/images/simple-css-showcase.webp)
 
 Here's a look at some examples of Simple.css running on websites from around the web:
 
@@ -15,9 +15,8 @@ Here's a look at some examples of Simple.css running on websites from around the
 * [Mike Stone](https://mikestone.me)
 * [Skirnir's realm](https://envs.net/~skirnir)
 * [Joel Chrono](https://joelchrono12.netlify.app)
-* [Micheal Waltz](https://www.ecliptik.com)
 * [Sheogorath's Blog](https://shivering-isles.com/)
-* [Tony Cavella](https://cavella.com) 
+* [Tony Cavella](https://cavella.com)
 
 ## Want to be added?
 
