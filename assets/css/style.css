@@ -54,7 +54,8 @@ nav a.current {
   padding-right: .25rem;
   display: inline-block;
   width: 1em;
-  height: 1em;
+  height: 1.3em;
+  margin-right: 0.2rem;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
