@@ -142,9 +142,60 @@ body {
 </code>
 </pre>
 ```
+
+## Other HTML elements
+
+There are other HTML elements that are formatted in Simple.css. If you think there should be more added, please [log an issue on Github](https://github.com/kevquirk/simple.css/issues)
+
+### Aside
+
+<aside>
+<p><b>Aside</b><br>
+This is an <code>aside</code>, it floats to the right and stands out slightly.</p>
+</aside>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+```
+<aside>
+<p>Your aside content goes here.</p>
+</aside>
+```
+
+### Article
+
+<article>
+<h2>This is an article</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+
+```
+<article>
+<h2>This is an article</h2>
+<p>Some content will go here, which will be inside your article.</p>
+</article>
+```
+
+### Section
+
+Sections are good for splitting up a page into multiple...sections. 🙃
+
+<section>
+<h2>This is a section</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+
+```
+<section>
+<h2>This is a section</h2>
+<p>Some content will go here, which will be inside your section.</p>
+</section>
+```
+
 ## Navigation
 
 The `nav` menu is deliberately designed to be extremely simple so that you can improve on it as you see fit. Or, just leave it as is to have a good looking, functional navigation menu.
+
+Navigation menus inside the `header` are automatically formatted like the one on this site. If you decide to put a `nav` menu elsewhere on your site, for example in a post for a table of contents, no formatting is applied. This is so you can add your own formatting as you see fit.
 
 There's no JavaScript or checkbox CSS hacks here. It's just a collection of simple "buttons" that wrap to the given width of the page:
 
