@@ -150,8 +150,8 @@ There are other HTML elements that are formatted in Simple.css. If you think the
 ### Aside
 
 <aside>
-<p><b>Aside</b><br>
-This is an <code>aside</code>, it floats to the right and stands out slightly.</p>
+<p><b>Aside</b></p>
+<p>This is an <code>aside</code>, it floats to the right and stands out slightly.</p>
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -321,29 +321,29 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
 	</select>
   </p>
   <p>
-  <label>First name</label><br>
+  <label>First name</label>
   <input type="text" name="first_name">
   </p>
   <p>
-  <label>Surname</label><br>
+  <label>Surname</label>
   <input type="text" name="surname">
   </p>
   <p>
-  <label>Email</label><br>
+  <label>Email</label>
   <input type="email" name="email" required="">
   </p>
   <p>
-  <label>Enquiry type:</label><br>
-  <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> <br />
-  <label><input name="type" type="radio" value="support" /> Support</label> <br />
+  <label>Enquiry type:</label>
+  <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> 
+  <label><input name="type" type="radio" value="support" /> Support</label> 
   <label><input name="type" type="radio" value="billing" /> Billing</label>
   </p>
   <p>
-  <label>Message</label><br>
+  <label>Message</label>
   <textarea rows="6"></textarea>
   </p>
   <p>
-  <label for="cars">Choose a car:</label><br>
+  <label for="cars">Choose a car:</label>
 <select name="cars" id="cars" multiple>
  <option value="volvo">Volvo</option>
  <option value="saab">Saab</option>
@@ -376,29 +376,29 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   </select></p>
 
   <p>
-  <label>First name</label><br>
+  <label>First name</label>
   <input type="text" name="first_name">
   </p>
 
   <p>
-  <label>Surname</label><br>
+  <label>Surname</label>
   <input type="text" name="surname">
   </p>
 
   <p>
-  <label>Email</label><br>
+  <label>Email</label>
   <input type="email" name="email" required="">
   </p>
 
   <p>
-  <label>Enquiry type:</label><br>
-  <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> <br />
-  <label><input name="type" type="radio" value="support" /> Support</label> <br />
+  <label>Enquiry type:</label>
+  <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> 
+  <label><input name="type" type="radio" value="support" /> Support</label> 
   <label><input name="type" type="radio" value="billing" /> Billing</label>
   </p>
 
   <p>
-  <label>Message</label><br>
+  <label>Message</label>
   <textarea rows="6"></textarea>
   </p>
 
