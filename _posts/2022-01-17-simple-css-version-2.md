@@ -35,6 +35,6 @@ If you want to continue to use Simple.css in your project and get the latest and
 
 ## Thank you!
 
-Finally, I just wanted to say thank you to all the people have contributed to Simple.css, and continue to do so. I never expected Simple.css to go anywhere - it was just a fun little personal project that I ended up publishing. So to see other people finding it useful and [using it in the wild](/showcase) really warms my heart.
+Finally, I just wanted to say thank you to all the people have contributed to Simple.css, and continue to do so. I never expected Simple.css to go anywhere - it was just a fun little personal project that I ended up publishing. So to see other people finding it useful and using it in the wild really warms my heart.
 
 If you're not using Simple.css yet, check out the [getting started](https://github.com/kevquirk/simple.css/wiki/Getting-Started-With-Simple.css) page to...you know...*get started*. 🙃
