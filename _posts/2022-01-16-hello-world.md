@@ -13,4 +13,4 @@ That's a great question, dear reader. I thought I'd write this quick post to fir
 
 Secondly, the Simple.css project is getting more popular, so I wanted a way to share news about updates to the project and the various things I'm doing with it. This way, you know what I'm doing and where the project is headed.
 
-Finally, there is an RSS feed too. So if you're that way inclined you can [subscribe](/feed.xml)
+Finally, there is an RSS feed too. So if you're that way inclined you can [subscribe](/feed.xml).
