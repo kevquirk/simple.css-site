@@ -131,47 +131,47 @@ body {
 
 ```
 <pre>
-<code>
-  body {
-    color: var(--text);
-    background: var(--bg);
-    font-size: 1.15rem;
-    line-height: 1.5;
-    margin: 0;
-  }
-</code>
+  <code>
+    body {
+      color: var(--text);
+      background: var(--bg);
+      font-size: 1.15rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+  </code>
 </pre>
 ```
 
 ## Other HTML elements
 
-There are other HTML elements that are formatted in Simple.css. If you think there should be more added, please [log an issue on Github](https://github.com/kevquirk/simple.css/issues)
+There are other HTML elements that are formatted in Simple.css. If you think there should be more added, please [log an issue on GitHub](https://github.com/kevquirk/simple.css/issues).
 
 ### Aside
 
 <aside>
-<p><b>Aside</b></p>
-<p>This is an <code>aside</code>, it floats to the right and stands out slightly.</p>
+  <p><b>Aside</b></p>
+  <p>This is an <code>aside</code>, it floats to the right and stands out slightly.</p>
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ```
 <aside>
-<p>Your aside content goes here.</p>
+  <p>Your aside content goes here.</p>
 </aside>
 ```
 
 ### Article
 
 <article>
-<h2>This is an article</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h2>This is an article</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </article>
 
 ```
 <article>
-<h2>This is an article</h2>
-<p>Some content will go here, which will be inside your article.</p>
+  <h2>This is an article</h2>
+  <p>Some content will go here, which will be inside your article.</p>
 </article>
 ```
 
@@ -180,14 +180,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Sections are good for splitting up a page into multiple...sections. 🙃
 
 <section>
-<h2>This is a section</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h2>This is a section</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section>
 
 ```
 <section>
-<h2>This is a section</h2>
-<p>Some content will go here, which will be inside your section.</p>
+  <h2>This is a section</h2>
+  <p>Some content will go here, which will be inside your section.</p>
 </section>
 ```
 
@@ -311,51 +311,59 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
 
 <form>
   <p><strong>This is just a test form. It doesn't do anything.</strong></p>
+
   <p>
-  <select>
-		<option selected="selected" value="1">Title</option>
-		<option value="2">Mr</option>
-    <option value="3">Miss</option>
-    <option value="4">Mrs</option>
-    <option value="5">Other</option>
-	</select>
+    <select>
+      <option selected="selected" value="1">Title</option>
+      <option value="2">Mr</option>
+      <option value="3">Miss</option>
+      <option value="4">Mrs</option>
+      <option value="5">Other</option>
+    </select>
   </p>
+
   <p>
-  <label>First name</label>
-  <input type="text" name="first_name">
+    <label>First name</label>
+    <input type="text" name="first_name">
   </p>
+
   <p>
-  <label>Surname</label>
-  <input type="text" name="surname">
+    <label>Surname</label>
+    <input type="text" name="surname">
   </p>
+
   <p>
-  <label>Email</label>
-  <input type="email" name="email" required="">
+    <label>Email</label>
+    <input type="email" name="email" required="">
   </p>
+
   <p>
-  <label>Enquiry type:</label>
-  <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> 
-  <label><input name="type" type="radio" value="support" /> Support</label> 
-  <label><input name="type" type="radio" value="billing" /> Billing</label>
+    <label>Enquiry type:</label>
+    <label><input checked="checked" name="type" type="radio" value="sales"> Sales</label> 
+    <label><input name="type" type="radio" value="support"> Support</label> 
+    <label><input name="type" type="radio" value="billing"> Billing</label>
   </p>
+
   <p>
-  <label>Message</label>
-  <textarea rows="6"></textarea>
+    <label>Message</label>
+    <textarea rows="6"></textarea>
   </p>
+
   <p>
-  <label for="cars">Choose a car:</label>
-<select name="cars" id="cars" multiple>
- <option value="volvo">Volvo</option>
- <option value="saab">Saab</option>
- <option value="opel">Opel</option>
- <option value="audi">Audi</option>
-</select>
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars" multiple>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
   </p>
+
   <p>
-  <label>
-  <input type="checkbox" id="checkbox" value="terms">
-  I agree to the <a href="#">terms and conditions</a>
-  </label>
+    <label>
+      <input type="checkbox" id="checkbox" value="terms">
+      I agree to the <a href="#">terms and conditions</a>
+    </label>
   </p>
 
   <button>Send</button>
@@ -367,46 +375,48 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
 <form>
   <p><strong>This is just a test form. It doesn't do anything.</strong></p>
 
-  <p><select>
-    <option selected="selected" value="1">Title</option>
-    <option value="2">Mr</option>
-    <option value="3">Miss</option>
-    <option value="4">Mrs</option>
-    <option value="5">Other</option>
-  </select></p>
-
   <p>
-  <label>First name</label>
-  <input type="text" name="first_name">
+    <select>
+      <option selected="selected" value="1">Title</option>
+      <option value="2">Mr</option>
+      <option value="3">Miss</option>
+      <option value="4">Mrs</option>
+      <option value="5">Other</option>
+    </select>
   </p>
 
   <p>
-  <label>Surname</label>
-  <input type="text" name="surname">
+    <label>First name</label>
+    <input type="text" name="first_name">
   </p>
 
   <p>
-  <label>Email</label>
-  <input type="email" name="email" required="">
+    <label>Surname</label>
+    <input type="text" name="surname">
   </p>
 
   <p>
-  <label>Enquiry type:</label>
-  <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> 
-  <label><input name="type" type="radio" value="support" /> Support</label> 
-  <label><input name="type" type="radio" value="billing" /> Billing</label>
+    <label>Email</label>
+    <input type="email" name="email" required="">
   </p>
 
   <p>
-  <label>Message</label>
-  <textarea rows="6"></textarea>
+    <label>Enquiry type:</label>
+    <label><input checked="checked" name="type" type="radio" value="sales"> Sales</label> 
+    <label><input name="type" type="radio" value="support"> Support</label> 
+    <label><input name="type" type="radio" value="billing"> Billing</label>
   </p>
 
   <p>
-  <label>
-  <input type="checkbox" id="checkbox" value="terms">
-  I agree to the <a href="#">terms and conditions</a>
-  </label>
+    <label>Message</label>
+    <textarea rows="6"></textarea>
+  </p>
+
+  <p>
+    <label>
+      <input type="checkbox" id="checkbox" value="terms">
+      I agree to the <a href="#">terms and conditions</a>
+    </label>
   </p>
 
   <button>Send</button>
