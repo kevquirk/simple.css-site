@@ -5,6 +5,9 @@ description: I'm looking for help with Simple.css - are you interested?
 image: /assets/images/simple-css-feature.webp
 ---
 
+{: .notice}
+**Please note:** We now have the additional support we need. Thanks to everyone who emailed offering to help!
+
 As with many side projects, they're exactly that, side projects. I earn a living doing something else; I also have a family and a number of other commitments. This doesn't leave much time for side projects like Simple.css, which means it can go unloved for relatively long periods of time.
 
 That isn't fair to the many people using this project.
