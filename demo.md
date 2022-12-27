@@ -197,15 +197,7 @@ The `nav` menu is deliberately designed to be extremely simple so that you can i
 
 Navigation menus inside the `header` are automatically formatted like the one on this site. If you decide to put a `nav` menu elsewhere on your site, for example in a post for a table of contents, no formatting is applied. This is so you can add your own formatting as you see fit.
 
-There's no JavaScript or checkbox CSS hacks here. It's just a collection of simple "buttons" that wrap to the given width of the page:
-
-<nav>
-  <a href="">Home</a>
-  <a href="">About</a>
-  <a href="">Blog</a>
-  <a href="">Notes</a>
-  <a href="">Contact</a>
-</nav>
+There's no JavaScript or checkbox CSS hacks here. It's just a collection of simple "buttons" that wrap to the given width of the page.
 
 The `nav` menu will also adapt to smaller screens automatically so that it doesn't take up too much space.
 
