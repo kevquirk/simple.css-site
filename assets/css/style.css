@@ -17,37 +17,12 @@ nav a.current {
   border-color: var(--accent) !important;
 }
 
-.notice {
-  background: var(--accent-bg);
-  border: 2px solid var(--border);
-  border-radius: 5px;
-  padding: 1.5rem;
-  margin: 2rem 0;
-}
-
 .medium {
   font-size: 1.4rem;
 }
 
 .small {
   font-size: 1rem;
-}
-
-.button {
-  border: none;
-  border-radius: 5px;
-  background: var(--accent);
-  color: var(--bg);
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.7rem 0.9rem;
-  margin: 0.5rem 0;
-}
-
-.button:hover,
-.button:focus {
-  filter: brightness(1.4);
-  cursor: pointer;
 }
 
 .icon {
