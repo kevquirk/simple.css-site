@@ -44,14 +44,14 @@ Buttons use the same `accent` CSS variable for their colour. When hovering, ther
 
 <button>I'm a button</button>
 
-<a href="https://example.com"><button>I'm a button with a link</button></a>
+<a class="button" href="https://example.com">I'm a button with a link</a>
 
 ```
 <a href="https://example.com">I'm a hyperlink</a>
 
 <button>I'm a button</button>
 
-<a href="https://example.com"><button>I'm a button with a link</button></a>
+<a class="button" href="https://example.com">I'm a button with a link</a>
 ```
 
 ## Other typography elements
@@ -146,6 +146,15 @@ body {
 ## Other HTML elements
 
 There are other HTML elements that are formatted in Simple.css. If you think there should be more added, please [log an issue on Github](https://github.com/kevquirk/simple.css/issues)
+
+### Notice box
+
+{: .notice}
+This is a notice box. It's useful for calling out snippets of information. Cool, huh?
+
+```
+<p class="notice">This is a notice box. It's useful for calling out snippets of information. Cool, huh?</p>
+```
 
 ### Aside
 
