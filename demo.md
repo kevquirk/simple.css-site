@@ -6,6 +6,9 @@ layout: default
 image: /assets/images/simple-css-feature.webp
 ---
 
+{: .notice}
+This demo page details a select set of elements that are meant to show off Simple.css's styling, and provide HTML to help you get started easily. If you want a comprehensive demonstration of elements that may or may not be styled by Simple.css, please see [our test page](https://test.simplecss.org).
+
 This page is a demonstration of the elements that can be formatted using Simple.css. Each section includes a code block on how to include it in your site's design.
 
 This may be a little basic for some people, but I wanted the barrier for entry to be as low as possible for this project.
