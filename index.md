@@ -1,5 +1,5 @@
 ---
-title: Simple.css - A CSS framework
+title: Simple.css Framework
 description: A CSS framework that makes semantic HTML look good.
 permalink: /
 layout: default
