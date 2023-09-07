@@ -20,7 +20,7 @@ And this is what they look like when in use:
 <a class="button" href="https://example.com">This is a link button</a>
 
 {: .notice}
-This is a notice box, you can use me to call attention to cetrain pieces of information.
+This is a notice box, you can use me to call attention to certain pieces of information.
 
 ## More classes?
 
