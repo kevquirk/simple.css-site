@@ -348,12 +348,12 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   </p>
   <p>
   <label for="cars">Choose a car:</label>
-<select name="cars" id="cars" multiple>
- <option value="volvo">Volvo</option>
- <option value="saab">Saab</option>
- <option value="opel">Opel</option>
- <option value="audi">Audi</option>
-</select>
+  <select name="cars" id="cars" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+  </select>
   </p>
   <p>
   <label>
@@ -404,6 +404,16 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   <p>
   <label>Message</label>
   <textarea rows="6"></textarea>
+  </p>
+
+  <p>
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+  </select>
   </p>
 
   <p>
