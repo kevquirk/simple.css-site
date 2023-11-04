@@ -13,8 +13,13 @@ Simple.css is a CSS framework that makes semantic HTML look good, **really** qui
 
 Simple.css is _mostly_ classless, which means that you can integrate Simple.css with plain HTML and your site will look great. If you want to add some [Simple Classes](https://simplecss.org/introducing-simple-classes/) to Simple.css, we have them available.
 
-{: .notice}
 If you have an idea for additional classes/features we can add to Simple.css, please [create an issue on GitHub](https://github.com/kevquirk/simple.css/issues).
+
+## TL;DR
+
+If you want to skip straight to the good stuff and learn how to integrate Simple.css into your project, use the button below to visit our docs page on Github.
+
+<a class="button" href="https://github.com/kevquirk/simple.css/wiki/Getting-Started-With-Simple.css">Get started with Simple.css</a>
 
 ## Why does Simple.css exist?
 
