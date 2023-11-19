@@ -13,7 +13,7 @@ If you want to add them to your project, you would do so like this:
 <a class="button" href="https://example.com">This is a link button</a>
 
 /* Add a notice box */
-<p class="notice">This is a notice box, you can use me to call attention to cetrain pieces of information.</p>
+<p class="notice">This is a notice box, you can use me to call attention to certain pieces of information.</p>
 ```
 And this is what they look like when in use:
 
