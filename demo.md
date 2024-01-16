@@ -419,7 +419,7 @@ Forms are useful for all kinds of things on webpages. Contact forms, newsletter 
   <p>
   <label>
   <input type="checkbox" id="checkbox" value="terms">
-  I agree to the <a href="#">terms and conditions</a>
+  I agree to the <a href="#">terms and conditions
   </label>
   </p>
 
