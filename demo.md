@@ -309,6 +309,136 @@ Like lists, sometimes you may need to add a table to your webpage. In Simple.css
 </table>
 ```
 
+If your table is too wide to fit on the page, wrap it in a `<figure>` element to add horizontal scrolling:
+
+<figure>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Number</th>
+        <th>Opinion on cheese</th>
+        <th>Favourite tea</th>
+        <th>Colour of choice</th>
+        <th>Unusual fact</th>
+        <th>Horse?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jackie</td>
+        <td>012345</td>
+        <td>Sometimes</td>
+        <td>Earl grey, hot</td>
+        <td>Blue</td>
+        <td>Communicates exclusively in metaphors</td>
+        <td>Aye</td>
+      </tr>
+      <tr>
+        <td>Lucy</td>
+        <td>112346</td>
+        <td>Only on Tuesdays</td>
+        <td>The green one</td>
+        <td>The green one</td>
+        <td>Caught a glimpse of an Australian badger</td>
+        <td>Aye</td>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>493029</td>
+        <td>Always eat the rind</td>
+        <td>London fog</td>
+        <td>Purple</td>
+        <td>Has never been to London</td>
+        <td>Aye</td>
+      </tr>
+      <tr>
+        <td>Kerry</td>
+        <td>395499</td>
+        <td>It's on the moon</td>
+        <td>Camomile</td>
+        <td>Yellow</td>
+        <td>Has been to the moon</td>
+        <td>Aye</td>
+      </tr>
+      <tr>
+        <td>Steve</td>
+        <td>002458</td>
+        <td>No</td>
+        <td>Black tea brewed using ISO 3103</td>
+        <td>Chestnut</td>
+        <td>Has a 350° field of view</td>
+        <td>Neigh</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+
+```
+<figure>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Number</th>
+        <th>Opinion on cheese</th>
+        <th>Favourite tea</th>
+        <th>Colour of choice</th>
+        <th>Unusual fact</th>
+        <th>Horse?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jackie</td>
+        <td>012345</td>
+        <td>Sometimes</td>
+        <td>Earl grey, hot</td>
+        <td>Blue</td>
+        <td>Communicates exclusively in metaphors</td>
+        <td>Aye</td>
+      </tr>
+      <tr>
+        <td>Lucy</td>
+        <td>112346</td>
+        <td>Only on Tuesdays</td>
+        <td>The green one</td>
+        <td>The green one</td>
+        <td>Caught a glimpse of an Australian badger</td>
+        <td>Aye</td>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>493029</td>
+        <td>Always eat the rind</td>
+        <td>London fog</td>
+        <td>Purple</td>
+        <td>Has never been to London</td>
+        <td>Aye</td>
+      </tr>
+      <tr>
+        <td>Kerry</td>
+        <td>395499</td>
+        <td>It's on the moon</td>
+        <td>Camomile</td>
+        <td>Yellow</td>
+        <td>Has been to the moon</td>
+        <td>Aye</td>
+      </tr>
+      <tr>
+        <td>Steve</td>
+        <td>002458</td>
+        <td>No</td>
+        <td>Black tea brewed using ISO 3103</td>
+        <td>Chestnut</td>
+        <td>Has a 350° field of view</td>
+        <td>Neigh</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+```
+
 ## Forms
 
 Forms are useful for all kinds of things on webpages. Contact forms, newsletter sign ups etc. Forms also look pretty good on Simple.css:
