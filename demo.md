@@ -372,6 +372,7 @@ If your table is too wide to fit on the page, wrap it in a `<figure>` element to
       </tr>
     </tbody>
   </table>
+  <figcaption>A wide table showing horizontal scroll behavior.</figcaption>
 </figure>
 
 ```
@@ -436,6 +437,7 @@ If your table is too wide to fit on the page, wrap it in a `<figure>` element to
       </tr>
     </tbody>
   </table>
+  <figcaption>A wide table showing horizontal scroll behavior.</figcaption>
 </figure>
 ```
 
