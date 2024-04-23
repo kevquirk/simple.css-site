@@ -17,7 +17,7 @@ If you have an idea for additional classes/features we can add to Simple.css, pl
 
 ## TL;DR
 
-If you want to skip straight to the good stuff and learn how to integrate Simple.css into your project, use the button below to visit our docs page on Github.
+If you want to skip straight to the good stuff and learn how to integrate Simple.css into your project, use the button below to visit our docs page on GitHub.
 
 <a class="button" href="https://github.com/kevquirk/simple.css/wiki/Getting-Started-With-Simple.css">Get started with Simple.css</a>
 

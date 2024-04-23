@@ -148,7 +148,7 @@ body {
 
 ## Other HTML elements
 
-There are other HTML elements that are formatted in Simple.css. If you think there should be more added, please [log an issue on Github](https://github.com/kevquirk/simple.css/issues)
+There are other HTML elements that are formatted in Simple.css. If you think there should be more added, please [log an issue on GitHub](https://github.com/kevquirk/simple.css/issues)
 
 ### Notice box
 
