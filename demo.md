@@ -248,9 +248,9 @@ In Simple.css, images within the `main` element are always full width and have r
 </figure>
 ```
 
-## Accordions
+## Details & Accordions
 
-Accordions are cool to play with. They're especially useful when it comes to things like FAQ pages. Many people invoke JavaScript, or `div` for life when they use accordions. I don't really understand why that is when it's available in plain old HTML:
+Details elements are cool to play with. They're especially useful when it comes to things like FAQ pages. Many people invoke JavaScript, or `div` for life when they use accordions. I don't really understand why that is when it's available in plain old HTML:
 
 <details>
   <summary>Spoiler alert!</summary>
@@ -261,6 +261,42 @@ Accordions are cool to play with. They're especially useful when it comes to thi
 <details>
   <summary>Spoiler alert!</summary>
   <p>You smell. 🙂</p>
+</details>
+```
+
+The `details` element can also be made to work as an accordion where one element opens and others in the list close. Like this:
+
+<details name="faq" >
+  <summary>FAQ 1</summary>
+  <p>Can you smell that?</p>
+</details>
+
+<details name="faq" >
+  <summary>FAQ 2</summary>
+  <p>Something really stinks.</p>
+</details>
+
+<details name="faq" >
+  <summary>FAQ 3</summary>
+  <p>Oh, it's you. 🙂</p>
+</details>
+
+To do this, you need to group the `details` elements together with a `name`, like this:
+
+```
+<details name="faq" >
+  <summary>FAQ 1</summary>
+  <p>Can you smell that?</p>
+</details>
+
+<details name="faq" >
+  <summary>FAQ 2</summary>
+  <p>Something really stinks.</p>
+</details>
+
+<details name="faq" >
+  <summary>FAQ 3</summary>
+  <p>Oh, it's you. 🙂</p>
 </details>
 ```
 
