@@ -32,7 +32,7 @@ The heading elements also have an increased top margin in order to break blocks 
 ###### Heading 6 `0.96rem`
 
 ```
-<h2>This is a H2 header<h2>
+<h2>This is a H2 header</h2>
 
 <p>This is some paragraph text.</p>
 ```
