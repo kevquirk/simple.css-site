@@ -1,6 +1,6 @@
 ---
 title: Simple.css Framework
-description: A CSS framework that makes semantic HTML look good
+description: A CSS framework that makes semantic HTML look good.
 permalink: /
 layout: base.njk
 image: /assets/images/simple-css-feature.webp
