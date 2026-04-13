@@ -1,0 +1,20 @@
+I"<p>After feedback and discussion from a number of our users, we have decided to add two simple, yet effective classes to Simple.css. As of today, you will be able to use the <code class="language-plaintext highlighter-rouge">.button</code> and <code class="language-plaintext highlighter-rouge">.notice</code> classes in your projects.</p>
+
+<p>If you want to add them to your project, you would do so like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/* Add a link that looks like a button */
+&lt;a class="button" href="https://example.com"&gt;This is a link button&lt;/a&gt;
+
+/* Add a notice box */
+&lt;p class="notice"&gt;This is a notice box, you can use me to call attention to certain pieces of information.&lt;/p&gt;
+</code></pre></div></div>
+<p>And this is what they look like when in use:</p>
+
+<p><a class="button" href="https://example.com">This is a link button</a></p>
+
+<p class="notice">This is a notice box, you can use me to call attention to certain pieces of information.</p>
+
+<h2 id="more-classes">More classes?</h2>
+
+<p>If you have any ideas for additional classes or features we can add to the project, please <a href="https://github.com/kevquirk/simple.css/issues">create an issue on GitHub</a>.</p>
+:ET

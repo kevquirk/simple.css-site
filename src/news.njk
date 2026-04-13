@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: Latest News
+description: Want to know what's going on with Simple.css? This is a good place to start.
+permalink: /news/
+image: /assets/images/simple-css-feature.webp
+---
+
+{% for post in collections.posts %}
+  <div class="blog-item">
+    <a class="post-link" href="{{ post.url }}">{{ post.data.title }}</a>
+    <p class="meta"><i>{{ post.data.description }}</i></p>
+    <p class="meta">{{ post.date | dateToString }}</p>
+  </div>
+{% endfor %}

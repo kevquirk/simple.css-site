@@ -1,5 +1,5 @@
-### Jekyll ###
+### 11ty ###
 _site
-.jekyll-metadata
-*-cache/
+.cache
+node_modules
 .DS_Store

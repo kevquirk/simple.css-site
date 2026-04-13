@@ -1,0 +1,36 @@
+I"�<p>I started off wanting to make a few small tweaks to Simple.css, but that list has grown recently since we <a href="https://news.ycombinator.com/item?id=29929438">hit the front page of Hacker News</a>. I decided to take the snag list I had and completely re-do Simple.css in way that I should have in the first place.</p>
+
+<h2 id="so-whats-changed-on-v20">So what’s changed on v2.0?</h2>
+<p>Well, a lot to be honest. Here’s an (incomplete) list as I can’t remember everything I changed off the top of my head:</p>
+
+<ul>
+  <li>Simple.css now uses CSS Grid instead of the old school <code class="language-plaintext highlighter-rouge">display:block;</code> method - this improves responsiveness and stops the need for hacks when it comes to full width content</li>
+  <li>I’ve gone through the entire stylesheet to both clean it up and simplify it</li>
+  <li><a href="/hello-world">Added a blog</a> to this site</li>
+  <li>Lots of small UI/UX tweaks that generally improve things</li>
+</ul>
+
+<h2 id="will-these-changes-break-my-site">Will these changes break my site?</h2>
+<p>In short, I don’t know. They shouldn’t as I’ve made no changes that require the structure of your HTML to change, but you never know.</p>
+
+<p>If these changes have broken your site, firstly, I’m sorry - it’s all in the name of maturing the project. Secondly, I’ve published version 1.x of the Simple.css stylesheet separately, so you can continue to use that in your project, if you like.</p>
+
+<p>To do that, simply change the <code class="language-plaintext highlighter-rouge">stylesheet</code> reference in your <code class="language-plaintext highlighter-rouge">head</code> section to <strong>one</strong> of the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Our CDN
+&lt;link rel="stylesheet" href="https://cdn.simplecss.org/simple-v1.css"&gt;
+
+OR
+
+// NPM CDN
+&lt;link rel="stylesheet" href="https://unpkg.com/simpledotcss@2.0.0/simple-v1.css"&gt;
+</code></pre></div></div>
+
+<p>If you want to continue to use Simple.css in your project and get the latest and greatest version, there’s nothing for you to do. Things should continue to chug along nicely. However, if you are having issues, please <a href="https://github.com/kevquirk/simple.css/issues">submit an issue on GitHub</a> and I’ll do my best to help.</p>
+
+<h2 id="thank-you">Thank you!</h2>
+
+<p>Finally, I just wanted to say thank you to all the people have contributed to Simple.css, and continue to do so. I never expected Simple.css to go anywhere - it was just a fun little personal project that I ended up publishing. So to see other people finding it useful and using it in the wild really warms my heart.</p>
+
+<p>If you’re not using Simple.css yet, check out the <a href="https://github.com/kevquirk/simple.css/wiki/Getting-Started-With-Simple.css">getting started</a> page to…you know…<em>get started</em>. 🙃</p>
+:ET

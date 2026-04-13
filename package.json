@@ -1,0 +1,14 @@
+{
+  "name": "simple.css-site",
+  "version": "1.0.0",
+  "description": "Website for Simple.css",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "js-yaml": "^4.1.0"
+  }
+}
